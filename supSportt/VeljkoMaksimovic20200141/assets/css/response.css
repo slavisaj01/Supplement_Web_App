@@ -1,0 +1,148 @@
+@media (max-width:1023px){
+    #naslov h1{
+        font-size: 35px;
+    }
+    nav a{
+        font-size: 23px;
+    }
+    footer{
+    text-align: center;
+    }
+    .fut1{
+    float: none;
+    }
+    .desno{
+    float: none;
+    }
+   .main{
+    margin-bottom: 200px;
+   }
+   section{
+    width: 100%;
+    justify-content: center;
+   }
+   article{
+    float: none;
+    margin-left: 0px;
+    margin: 10px;
+   }
+   .box3 img{
+    width: 70%;
+   }
+   .desnoResponse{
+    float: right;
+   }
+   .navD h1{
+    font-size: 30px;
+   }
+   .navD h2{
+    font-size: 25px;
+   }
+   .navD p{
+    font-size: 18px;
+   }
+}
+@media (max-width:768px){
+    .navL{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .navL ul li{
+        padding: 5px 0px;
+    }
+    .navD{
+        width: 96%;
+    }
+    .navD h1{
+        font-size: 23px;
+       }
+       .navD h2{
+        font-size: 20px;
+       }
+       .navD p{
+        font-size: 17px;
+       }
+    .flex-response{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:660px){
+    section{
+        display: block;
+        height: 1030px;
+        margin: 30px auto;
+    }
+    article{
+        width: 90%;
+        height: 400px;
+        margin: 0px;
+        margin: 10px auto;
+    }
+    ficaption a{
+        font-size: 19px;
+    }
+    .box{
+        padding: 10px;
+    }
+    .box h2{
+        font-size: 28px;
+    }
+    .box p{
+        font-size: 18px;
+        margin: 2px;
+    }
+    .box ul li{
+        padding: 2px;
+        font-size: 17px;
+    }
+ 
+}
+ @media (max-width:552px){
+    header{
+        height: 100vh;
+    }
+    #naslov{
+        display: none;
+    }
+    input[type="text"]{
+        width: 280px;
+    }
+    #vel{
+        width:280px ;
+    }
+    .fut1{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .resposnseImgLogo{
+        width: 150px;
+    }
+    .nav2{
+        text-align: center;
+    }
+    nav a{
+        font-size: 13px;
+    }
+    .navL li a{
+        padding: 5px 6px;
+        font-size: 15px;
+    }
+    .tabela thead tr th{
+        padding: 3px;
+        font-size: 20px;
+    }
+    .tabela tbody tr td{
+        font-size: 18px;
+    }
+    .fut1 h2{
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .fut1 p{
+        font-size: 17px;
+        padding-top: 2px;
+        margin-bottom: 4px;
+    }
+ }
